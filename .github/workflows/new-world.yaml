@@ -13,7 +13,7 @@ jobs:
     steps:
       -user: action/checkout@v2
       -name: new world
-      run: echo "hello world"
+       run: echo "new world"  
       shell: bash
   goodbye:
     runs-on: ubuntu-latest
